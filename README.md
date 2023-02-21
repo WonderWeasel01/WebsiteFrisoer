@@ -31,4 +31,4 @@
 
 
 
-© 2023 WonderWeasel, Juan Weasley, Gayman & LexRoZa. All Rights Reserved.
+© 2023 WonderWeasel, Juan Gawr Gura Weasley, Gayman, Forsen & LexRoZa. All Rights Reserved.
