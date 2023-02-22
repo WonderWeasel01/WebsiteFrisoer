@@ -28,11 +28,11 @@ html {
     color: darkgoldenrod;
   }
 
-  .mflogo {
-    width: 300px;
-    height: 200px;
-    background-image: url();
-
+  .MFLogo {
+    width: 30px;
+    height: 20px;
+    background-image: url(https://raw.githubusercontent.com/WonderWeasel01/WebsiteFrisoer/main/Pictures/MFLogo.png);
+    background-size: 50%;
   }
 
   
