@@ -9,8 +9,8 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "dennis" && password === "umaru") {
         window.location.href="https://wentzelevent.dk/";
-        /* alert("You have successfully logged in."); */
-        location.reload();
+        /* alert("You have successfully logged in."); 
+        location.reload(); */
     } else {
         loginErrorMsg.style.opacity = 1;
     }
