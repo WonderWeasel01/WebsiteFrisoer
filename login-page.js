@@ -8,7 +8,8 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "dennis" && password === "umaru") {
-        alert("You have successfully logged in.");
+        window.location.href="https://wentzelevent.dk/";
+        /* alert("You have successfully logged in."); */
         location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
