@@ -28,6 +28,11 @@ html {
     color: darkgoldenrod;
   }
 
+  .mflogo {
+    width 300px;
+
+  }
+
   
   #login-error-msg-holder {
     width: 100%;
