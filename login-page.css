@@ -18,9 +18,9 @@ html {
     display: grid;
     justify-items: center;
     align-items: center;
-    background-color: rgb(187, 182, 182);
+    background-color: rgb(0, 0, 0);
     border-radius: 7px;
-    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0);
+    box-shadow: 0px 0px 3px 2px rgb(255, 255, 255);
   }
 
   #firma-navn {
@@ -29,10 +29,12 @@ html {
   }
 
   .MFLogo {
-    width: 30px;
-    height: 20px;
+    width: 400px;
+    height: 200px;
     background-image: url(https://raw.githubusercontent.com/WonderWeasel01/WebsiteFrisoer/main/Pictures/MFLogo.png);
-    background-size: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   
