@@ -37,7 +37,10 @@ html {
     background-position: center;
   }
 
-  
+  .MFLogo:hover {
+    background-size: 200%;
+  }
+
   #login-error-msg-holder {
     width: 100%;
     height: 100%;
