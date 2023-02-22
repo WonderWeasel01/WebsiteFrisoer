@@ -8,7 +8,7 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "dennis" && password === "umaru") {
-        window.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+        window.location.href="https://r.mtdv.me/products/WentzelEvent";
         /* alert("You have successfully logged in."); 
         location.reload(); */
     } else {
