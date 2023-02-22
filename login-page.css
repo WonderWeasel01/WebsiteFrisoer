@@ -51,7 +51,7 @@ html {
   }
   
   #login-error-msg {
-    width: 23%;
+    width: 30%;
     text-align: center;
     margin: 0;
     padding: 5px;
@@ -82,7 +82,7 @@ html {
     border: none;
     border-bottom: 1px solid #3a3a3a;
     margin-bottom: 10px;
-    border-radius: 3px;
+    border-radius: 6px;
     outline: none;
     padding: 0px 0px 5px 5px;
   }
@@ -92,10 +92,74 @@ html {
     padding: 7px;
     border: none;
     border-radius: 5px;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     background-color: #3a3a3a;
     cursor: pointer;
     outline: none;
+    margin-bottom: 6px;
   }
+
+  /* Husk mig login checkbox */
+.husklogin {
+  display: block;
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #ffffff;
+}
+
+.husklogin input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  background-color: #eee;
+  border-radius: 25%;
+}
+
+.husklogin:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.husklogin input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.husklogin input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.husklogin .checkmark:after {
+  left: 5px;
+  top: 1px;
+  width: 3px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
   
